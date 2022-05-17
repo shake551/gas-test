@@ -5,4 +5,5 @@ function main() {
   const sheet = Drive.Files.get(id);
   console.log(sheet.lastModifyingUserName);
   console.log(sheet.modifiedDate);
+  console.log(sheet)
 }
